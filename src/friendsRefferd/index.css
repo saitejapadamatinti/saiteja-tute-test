@@ -1,0 +1,51 @@
+.friend-reffer-main-container {
+  width: 100%;
+  padding: 20px 0px;
+}
+.friend-reffer-code-div {
+  margin-top: 5px;
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border: 1.5px solid #dfdfdf;
+  border-radius: 10px;
+}
+.friend-reffer-code-balance-div {
+  display: flex;
+  justify-content: space-between;
+}
+.friend-reffer-balance-card {
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  padding: 20px;
+}
+.enrollcards-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.referred-friend-go-back-div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.friend-reffer-back-icon {
+  font-size: 30px;
+}
+.section-margin-terms{
+    margin-top: 25px;
+}
+
+@media screen and (min-width:576px) {
+    .enrollcards-div{
+        flex-direction: row;
+        overflow: auto;
+    }
+    .friend-enrolled-cards-div{
+        margin-top: 70px;
+    }
+    .section-margin-terms{
+        margin-top: 40px;
+    }
+}

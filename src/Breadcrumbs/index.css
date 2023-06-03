@@ -1,0 +1,17 @@
+.breadcrumbs > *{
+    display: inline-block;
+}
+.breadcrumbs .crumbs:after{
+    content: ">";
+}
+.breadcrumbs .crumbs:last-child:after{
+    display: none;
+}
+.breadcrumbs .crumbs a{
+    color: #ddd;
+}
+@media screen and (min-width:576px) {
+    /* .breadcrumbs{
+        margin-left: 50px;
+    } */
+}
