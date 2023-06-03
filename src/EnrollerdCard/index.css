@@ -10,12 +10,14 @@
   display: flex;
   justify-content: space-between;
 }
-.enrolled-card-courses-names-div{
-    height: 72px;
-    overflow-y: auto;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+.enrolled-card-courses-names-div {
+  min-height: 34px;
+  max-height: 80px;
+  overflow-y: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 .enrolled-card-course-name {
   border: 1.5px solid #eeaeae;
@@ -23,8 +25,17 @@
   width: fit-content;
   padding: 4px 9px;
 }
-.referal-amount-para{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.referal-amount-para {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .enrolled-card-courses-names-div {
+    height: 80px;
+  }
+  .enrolled-card-div {
+    width: 33%;
+  }
 }

@@ -42,7 +42,7 @@ const Home = () => {
         <div className="home-earning-amount-card">
           <div>
             <p className="primary-color">Referral Earning</p>
-            <h1 className="head-32px-semi">$2,500</h1>
+            <h1 className="head-32px-semi">₹2,500</h1>
           </div>
           <div>
             <p className="primary-color">Total Referrals</p>
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
           <div>
             <p className="primary-color">Total Referrals</p>
-            <h1 className="head-32px-semi">$500</h1>
+            <h1 className="head-32px-semi">₹500</h1>
           </div>
           <div className="home-earning-card-button">
             <button className="primary-button">Withdraw Balance</button>

@@ -21,27 +21,51 @@ const enrolledFriendsList = [
   },
   {
     id: 2,
-    name: "",
-    enrolledDate: "",
-    "Courses Enrolled": "",
-    "course names": [
+    userName: "Subhash Mishra",
+    enrolledDate: "15 Sep, 2022",
+    courseNames: [
+      "UI/UX",
+      "Photoshop",
+      "Illustrator",
+      "Python",
+      "MERN",
+      "MERN",
+      "Java",
       "UI/UX",
       "Photoshop",
       "Illustrator",
       "Python",
       "MERN",
       "Java",
+      "MERN",
+      "Java",
+      "Java",
       "Java",
       "Java",
     ],
-    "referral amount": "185",
+    referralAmount: "485",
   },
   {
     id: 3,
-    name: "",
-    enrolledDate: "",
-    "Courses Enrolled": "",
-    "course names": [
+    userName: "Prafull Kumar",
+    enrolledDate: "Prafull Kumar",
+    courseNames: [
+      "UI/UX",
+      "Photoshop",
+      "Illustrator",
+      "Python",
+      "MERN",
+      "Java",
+      "MERN",
+      "Java",
+      "UI/UX",
+      "Photoshop",
+      "Illustrator",
+      "Python",
+      "MERN",
+      "Java",
+      "MERN",
+      "Java",
       "UI/UX",
       "Photoshop",
       "Illustrator",
@@ -51,7 +75,7 @@ const enrolledFriendsList = [
       "MERN",
       "Java",
     ],
-    "referral amount": "185",
+    referralAmount: "485",
   },
 ];
 
@@ -89,9 +113,9 @@ const FriendRefferd = () => {
           <span className="font-light-color head-24px-semibold">(3)</span>
         </h2>
         <div className="enrollcards-div">
-          {enrolledFriendsList.map((eachFriend) => (
-            <EnrollerdCard key={eachFriend.id} enrolledData={eachFriend} />
-          ))}
+          {/* {enrolledFriendsList.map((eachFriend) => ( */}
+            <EnrollerdCard enrolledData={enrolledFriendsList} />
+          {/* ))} */}
         </div>
       </div>
       <p className="para-16px-semi primary-color section-margin-terms">
